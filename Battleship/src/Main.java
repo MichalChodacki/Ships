@@ -18,13 +18,13 @@ Automat automat2  = new Automat();
 	automat.Ship(ship2);
 	automat.Ship(ship3);
 	
-	while(ship2.contains("chuj")==true) {
+	while(ship2.contains("hit")==true) {
 		ship2.clear();
 		automat.Ship(ship2);
 		System.out.println("Bang 1");
 	}
 	
-	while(ship3.contains("chuj")==true) {
+	while(ship3.contains("hit")==true) {
 		ship3.clear();
 		automat.Ship(ship3);
 		System.out.println("Bang 2");

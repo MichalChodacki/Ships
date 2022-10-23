@@ -59,7 +59,7 @@ ActionListener banan;
 		box1 = new JLabel();
 		box1.setText("<html>"
 	            + "<p><font size=+2>Enemy</p>");
-		box1.setFont(new Font("Chuj",Font.ITALIC,20));
+		box1.setFont(new Font("Czcionka",Font.ITALIC,20));
 		box1.setBackground(Color.DARK_GRAY);
 		box1.setOpaque(true);
 		box1.setForeground(new Color(0x000000));
@@ -71,7 +71,7 @@ ActionListener banan;
 		box2 = new JLabel();
 		box2.setText("<html>"
 	            + "<p><font size=+2>Player</p>");
-		box2.setFont(new Font("Chuj",Font.ITALIC,20));
+		box2.setFont(new Font("Czcionka",Font.ITALIC,20));
 		box2.setBackground(Color.darkGray);
 		box2.setForeground(new Color(0x000000));
 		box2.setVisible(true);
@@ -102,10 +102,10 @@ ActionListener banan;
 					if(yx.getSource()==boa.get(i).get(j).getButton()){
 						
 						System.out.println(boa.get(i).get(j).getButton().getName());
-						if(boa.get(i).get(j).getButton().getName()=="chuj") {
+						if(boa.get(i).get(j).getButton().getName()=="hit") {
 						boa.get(i).get(j).getButton().setBackground(Color.RED);
 						}
-						if(!(boa.get(i).get(j).getButton().getName()=="chuj")) {
+						if(!(boa.get(i).get(j).getButton().getName()=="hit")) {
 							boa.get(i).get(j).getButton().setBackground(Color.gray);
 						}
 						boa.get(i).get(j).getButton().setEnabled(false);

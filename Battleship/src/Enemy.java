@@ -10,7 +10,7 @@ public class Enemy {
 		shot=this.shot;
 		shot = matrix.getMatrix().get(y).get(x);
 		//matrix=this.matrix;
-		while((shot=="chuj")) {
+		while((shot=="hit")) {
 		x = (int)((Math.random()*7));	
 		y = (int)((Math.random()*7));
 		
@@ -18,7 +18,7 @@ public class Enemy {
 		shot = matrix.getMatrix().get(y).get(x);
 		
 		}
-		matrix.getMatrix().get(y).set(x, "chuj");
+		matrix.getMatrix().get(y).set(x, "hit");
 		count++;
 		
 		System.out.println(count);

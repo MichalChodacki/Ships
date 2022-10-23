@@ -30,7 +30,7 @@ String[] abc = {"A", "B", "C", "D" ,"E", "F", "G"};
 	
 		}
 	g2.setPaint(Color.black);
-	g2.setFont(new Font("dupa",Font.BOLD,50));
+	g2.setFont(new Font("font1",Font.BOLD,50));
 	for(int i=0;i<7;i++) {
 		String chuj = String.valueOf(i+1);
 	g2.drawString(chuj, 8, i*50+145);
